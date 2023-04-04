@@ -1,0 +1,74 @@
+/* body,html{
+  margin: 0;
+  height: 100%;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} */
+
+.heading{
+  text-align: center;
+  padding:3.5rem 0
+}
+
+.heading span{
+  font-size: 4.5rem;
+  background-image: linear-gradient(to right, rgb(195, 0, 255) , rgb(47, 0, 255));
+  color:var(--black);
+  border-radius: .5rem;
+  padding:.2rem 1rem;
+}
+
+.heading span.space{
+  background:none;
+}
+
+
+.book .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+  align-items: center;
+}
+
+.book .row .image{
+  flex:1 1 40rem;
+}
+
+.book .row .image img{
+  width:100%;
+}
+
+.book .row form{
+  flex:1 1 40rem;
+  padding:2rem;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  border-radius: .5rem;
+}
+
+.book .row form .inputBox{
+  padding:.5rem 0;
+}
+
+.book .row form .inputBox input{
+  width:100%;
+  padding:1rem;
+  border:.1rem solid rgba(0,0,0,.1);
+  font-size: 1.7rem;
+  color:#333;
+  text-transform: none;
+}
+
+.book .row form .inputBox h3{
+  font-size: 2rem;
+  padding:1rem 0;
+  color:#666;
+}
+section{
+  padding:2rem 9%;
+}

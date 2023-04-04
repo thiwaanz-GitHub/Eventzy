@@ -1,0 +1,49 @@
+.topnav {
+  overflow: auto;
+  /* background-color: #ae00ff; */
+  background-image: linear-gradient(to right, rgb(195, 0, 255) , rgb(47, 0, 255));
+  position: fixed; 
+  top: 0px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+  text-decoration: none;
+  /* opacity: 0.7; */
+  z-index: 1000;
+  /* border-bottom: 1px solid black; */
+  
+}
+
+.topnav a {
+  float: right;
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 15px;
+  
+  /* position: fixed; */
+  /* position: relative; */
+}
+
+.topnav a:hover {
+  /* background-color: rgb(255, 102, 0); */
+  color: rgb(240, 240, 240);
+  /* font-weight: bold; */
+
+}
+
+.logo img{
+  /* position: absolute; */
+  margin-top: -73px;
+  position: fixed;
+  margin-left: -20px;  
+  /* margin: 0 0 0 0; */
+  width: 250px;
+  height: 250px;
+  float: left;
+  opacity: 1;
+  z-index: 5000;
+}

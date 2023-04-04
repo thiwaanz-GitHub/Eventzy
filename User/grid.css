@@ -1,0 +1,70 @@
+.container {
+  position: relative;
+  width: 96%;
+  margin: 0px 0px 30px 10px;
+  /* border: 5px solid rgb(221, 217, 217); */
+  /* box-shadow: 0px 0px 7px 7px rgb(168, 166, 166); */
+}
+
+.container:hover{
+  box-shadow: 0px 0px 7px 7px rgb(99, 98, 98);
+}
+.my {
+  background-color: rgb(0, 0, 0);
+  font-size: large;
+  color: rgb(255, 255, 255);
+  padding: 16px 32px;
+  
+}
+
+.my:hover {
+
+  background-color: rgb(255, 153, 0);
+  color: rgb(255, 255, 255);
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  outline: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  
+}
+
+.container:hover .image {
+  opacity: 0.6;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+
+.grid-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto auto auto;
+  /* padding: 10px 12px; */
+}
+
+.grid-item {
+  background-color: yellow;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}

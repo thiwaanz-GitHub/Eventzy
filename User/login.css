@@ -1,0 +1,109 @@
+.body{
+    background-color: rgb(65, 61, 61);
+    /* height: 80vh; */
+}
+.fm{
+    width: 35%;
+    height: 55vh;
+    border: 1px solid rgb(255, 162, 0);
+    padding: 40px 40px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 25px rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+
+}
+
+.by{
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 166, 0);
+    color: rgb(255, 166, 0);
+}
+
+.byy{
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 166, 0);
+    color: rgb(255, 166, 0);
+}
+
+.by:hover{
+    background-color: rgb(255, 166, 0);
+    color: black;
+    border: 1px solid rgb(255, 166, 0);
+}
+.byy:hover{
+    background-color: rgb(255, 166, 0);
+    color: black;
+    border: 1px solid rgb(255, 166, 0);
+}
+
+.ep{
+    border-radius: 10px;
+    background-color: rgb(77, 77, 77);
+    border: 1px solid rgb(255, 157, 0);
+    -webkit-text-fill-color: rgb(255, 183, 0);
+}
+
+
+.htag {
+    font-family: 'Verdana', Courier, monospace;
+    font-size: 30px;
+    color: rgb(255, 153, 0);
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.bd{
+    height: 100vh;
+}
+
+.or{
+    text-align: center;
+    color: rgb(255, 153, 0);
+    
+}
+
+.fmm{
+    width: 35%;
+    height: 97vh;
+    border: 1px solid rgb(255, 162, 0);
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 25px rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+}
+
+
+.fmmm{
+    width: 35%;
+    height: 95vh;
+    border: 1px solid rgb(255, 162, 0);
+    padding: 30px 30px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 25px rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+}
+
+.fmmmm{
+    width: 35%;
+    height: 85vh;
+    border: 1px solid rgb(255, 162, 0);
+    padding: 30px 30px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 25px rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+}
+
+.frn{
+    width: 35%;
+    height: 97vh;
+    border: 1px solid rgb(255, 162, 0);
+    padding: 30px 30px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 25px rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);  
+}
