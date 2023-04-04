@@ -1,0 +1,2 @@
+# Eventzy
+Event Management System
