@@ -146,7 +146,7 @@ html {
           <h1 style="font-size:50px">PLACE YOUR CHOISE</h1><br><br>
           <p style="font-size:20px">We are here!</p>
           <br>
-          <a href="#About"> <button >About Us</button> </a>
+          <a href="#About"> <button >About Us About Button</button> </a>
          
         </div>
       </div>
